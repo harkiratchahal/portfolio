@@ -1,29 +1,38 @@
-# Vansh Harkirat Singh - Portfolio
+# 🎵 3D Spotify-Inspired Portfolio
 
-A modern, interactive portfolio website built with Next.js, Tailwind CSS, and Three.js, featuring a Spotify-inspired dark theme with neon accents and 3D elements.
+A fully responsive, visually stunning personal portfolio website inspired by Spotify's design aesthetic. Built with modern web technologies to deliver an immersive user experience with 3D elements, glassmorphism, and smooth animations.
 
-## 🚀 Tech Stack
+🔗 **Live Demo:** [View Portfolio](https://69231af002ee42c32c5470bb--portfolio-harkirat-chahal.netlify.app/)
 
-- **Framework**: [Next.js 15](https://nextjs.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **3D Graphics**: [React Three Fiber](https://docs.pmndrs.assets/react-three-fiber) & [Drei](https://github.com/pmndrs/drei)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Icons**: [Lucide React](https://lucide.dev/)
+![Portfolio Preview](https://i.imgur.com/your-preview-image.png)
+*(Note: You can replace this image link with a screenshot of your actual site)*
 
 ## ✨ Features
 
-- **Immersive 3D Hero Section**: Interactive floating sphere with lighting effects.
-- **Glassmorphism UI**: Premium dark glass cards and sidebars.
-- **Dynamic Backgrounds**: Glowing gradient blobs and grid patterns.
-- **Responsive Design**: Fully optimized for mobile and desktop.
-- **Project Showcase**: Grid layout for projects with direct repository links.
+- **🎨 Premium Dark Theme**: Pitch black background with neon green highlights (`#00FF88`), inspired by Spotify's dark mode.
+- **🧊 Glassmorphism UI**: Modern frosted glass effects on cards, sidebars, and panels.
+- **🔮 3D Interactive Hero**: A floating, reactive 3D neon sphere built with **React Three Fiber**.
+- **⚡ Smooth Animations**: Page transitions and micro-interactions powered by **Framer Motion**.
+- **📱 Fully Responsive**: Optimized for mobile, tablet, and desktop devices.
+- **🎧 Spotify-Style Navigation**: Sticky sidebar navigation with an "album grid" layout for projects.
 
-## 🛠️ Getting Started
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **3D Graphics**: [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) / [Drei](https://github.com/pmndrs/drei)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Language**: TypeScript
+
+## 🚀 Getting Started
+
+To run this project locally:
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/harkiratchahal/portfolio.git
-    cd portfolio
+    git clone https://github.com/yourusername/my-portfolio.git
+    cd my-portfolio
     ```
 
 2.  **Install dependencies**:
@@ -38,19 +47,24 @@ A modern, interactive portfolio website built with Next.js, Tailwind CSS, and Th
 
 4.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📦 Deployment
+## 📂 Project Structure
 
-This project is optimized for deployment on **Netlify** or **Vercel**.
-
-### Netlify Deployment Steps:
-1.  Push your code to GitHub.
-2.  Log in to [Netlify](https://www.netlify.com/).
-3.  Click **"Add new site"** > **"Import from an existing project"**.
-4.  Select **GitHub** and authorize.
-5.  Choose this repository (`portfolio`).
-6.  Netlify will auto-detect the Next.js settings.
-7.  Click **"Deploy"**.
+```bash
+├── app/                  # Next.js App Router pages
+│   ├── globals.css       # Global styles & Tailwind config
+│   ├── layout.tsx        # Main root layout
+│   └── page.tsx          # Homepage with all sections
+├── components/
+│   ├── 3d/              # Three.js 3D scenes (HeroScene)
+│   ├── layout/          # Layout components (Sidebar, MainLayout)
+│   └── ui/              # Reusable UI components (Button, Card)
+└── public/               # Static assets
+```
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Designed & Built with 💚 by [Harkirat Chahal](https://69231af002ee42c32c5470bb--portfolio-harkirat-chahal.netlify.app/)
