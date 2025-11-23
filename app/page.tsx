@@ -271,7 +271,7 @@ export default function Home() {
           Whether you have a question or just want to say hi, I'll try my best to get back to you!
         </p>
         <Button size="lg" className="px-10 py-4 text-xl" onClick={() => window.location.href = 'mailto:vhschahal@gmail.com'}>
-          Say Hello
+          vhschahal@gmail.com
         </Button>
       </section>
 
