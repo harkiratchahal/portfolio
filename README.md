@@ -1,37 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vansh Harkirat Singh - Portfolio
 
-## Getting Started
+A modern, interactive portfolio website built with Next.js, Tailwind CSS, and Three.js, featuring a Spotify-inspired dark theme with neon accents and 3D elements.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Framework**: [Next.js 15](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **3D Graphics**: [React Three Fiber](https://docs.pmndrs.assets/react-three-fiber) & [Drei](https://github.com/pmndrs/drei)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Immersive 3D Hero Section**: Interactive floating sphere with lighting effects.
+- **Glassmorphism UI**: Premium dark glass cards and sidebars.
+- **Dynamic Backgrounds**: Glowing gradient blobs and grid patterns.
+- **Responsive Design**: Fully optimized for mobile and desktop.
+- **Project Showcase**: Grid layout for projects with direct repository links.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Getting Started
 
-## Learn More
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/harkiratchahal/portfolio.git
+    cd portfolio
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deploy on Vercel
+## 📦 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is optimized for deployment on **Netlify** or **Vercel**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# portfolio
+### Netlify Deployment Steps:
+1.  Push your code to GitHub.
+2.  Log in to [Netlify](https://www.netlify.com/).
+3.  Click **"Add new site"** > **"Import from an existing project"**.
+4.  Select **GitHub** and authorize.
+5.  Choose this repository (`portfolio`).
+6.  Netlify will auto-detect the Next.js settings.
+7.  Click **"Deploy"**.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
